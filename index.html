@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio - Emilita Madulid</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/styles1s.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo1"><p>My Simple Portfolio</p></a>
+        <div class="bx bx-menu" id="menu-icon1"></div>
+        <ul class="navbar1">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#educ-background">Educational Background</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="social">
+            <a target = '_blank' href="https://github.com/miletblas/"><i class='bx bxl-github'></i></a>
+            <a target = '_blank' href="https://www.facebook.com/milet.blas?mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+            <a target = '_blank' href="https://twitter.com/milet_blas"><i class='bx bxl-twitter' ></i></a>
+            <a target = '_blank' href="https://www.instagram.com/milet.blas/"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <div class="home-img">
+            <img src="images/myself/image3.jpeg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Emilita Madulid</h1>
+            <h2>- Frontend Developer / Backend Developer</h2>
+            <p class="about-text">Seeking a challenging career at a reputable organization to employ my talents and abilities and accomplish professional advancement while being resourceful, innovative, and adaptable. To be given the chance to apply my skills to their utmost and promote the organization's expansion.</p>
+            <a href="#portfolio" class="btn btn-primary">Portfolio</a>
+        </div>
+ 
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/myself/about.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Good day! I am Emilita B. Madulid, 21 years old, lives in San Jose City, Nueva Ecija. Currently taking Bachelor of Science in Information Technology at Central Luzon State University.</p><br>
+                <p>I graduated at San Jose City National High School under the track of General Academic Strand. Seeking a challenging career with a reputable organization where I can build new skills, broaden my knowledge, and put my knowledge to use. To be given the opportunity to put my skills to good use and contribute to the growth of the organization. I have the ability to work with integrity and diligence.</p><br>
+                <p>I believe you would consider my letter and call me to further discuss about my skills, strengths and abilities. You may contact me at 0969-184-9419 or email me at miletblas22001@gmail.com. Thank you for your time and consideration</p>
+        </div>
+    </section>
+    
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-container">
+                <img src="images/portfolio/Sales/1.png" alt="Avatar" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <div class="portfolio-text">Sesame's Treats</div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btncap btn-warning" data-toggle="modal" data-target="#sesameModal">Details</button>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <img src="images/portfolio/TraveLocco/1.png" alt="Avatar" class="portfolio-image">
+                <div class="portfolio-overlay">
+                    <div class="portfolio-text">TraveLocco</div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btncap btn-warning" data-toggle="modal" data-target="#traveloccoModal">Details</button>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <img src="images/portfolio/SearchIT!/1.png" alt="Avatar" class="portfolio-image3">
+                <div class="portfolio-overlay">
+                    <div class="portfolio-text">SearchIT!</div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btncap btn-warning" data-toggle="modal" data-target="#searchitModal">Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sesame's Treats Modal -->
+    <div class="modal fade" id="sesameModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sesame's Treats Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="sesameIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#sesameIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#sesameIndicators" data-slide-to="1"></li>
+                            <li data-target="#sesameIndicators" data-slide-to="2"></li>
+                            <li data-target="#sesameIndicators" data-slide-to="3"></li>
+                            <li data-target="#sesameIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/Sales/1.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/Sales/2.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/Sales/3.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/Sales/4.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/Sales/5.png" alt="..." class="portfolio-image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#sesameIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#sesameIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="about-text">
+                            <label><b>Description: </b></label>
+                            <p>The system will be able to perform a handful of operations, including product entry, product viewing, product updates, and product deletion. Also, the system will be able to update and maintain product the information of the products entered.</p></div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TraveLocco Modal -->
+    <div class="modal fade" id="traveloccoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">TraveLocco Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="traveloccoIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#traveloccoIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="1"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="2"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="3"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="4"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="5"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="6"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="7"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="8"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="9"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="10"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="11"></li>
+                            <li data-target="#traveloccoIndicators" data-slide-to="12"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/TraveLocco/1.2.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/2.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/2.1.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/2.2.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/3.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/4.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/5.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/6.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/6.1.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/6.2.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/7.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/7.1.png" alt="..." class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/TraveLocco/7.2.png" alt="..." class="portfolio-image">
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#traveloccoIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#traveloccoIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="about-text">
+                            <label><b>Description: </b></label>
+                            <p>TraveLocco is an online travel service where you may book flights. The user can choose where he wants to go and simply buy from the flight list on this Travel Agency Website. It also has an admin side where the administrator may handle all of the information contained within TraveLocco.</p></div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SearchIT! Modal -->
+    <div class="modal fade" id="searchitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SearchIT! Application</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="searchITIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#searchITIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="1"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="2"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="4"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="5"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="6"></li>
+                            <li data-target="#searchITIndicators" data-slide-to="7"></li>
+                            <!-- <li data-target="#searchITIndicators" data-slide-to="8"></li> -->
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/SearchIT!/1.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/2.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/3.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/4.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/5.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/6.png" alt="..." class="carousel-image3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/7.png" alt="..." class="carousel-image3">
+                            </div>
+                            <!-- <div class="carousel-item">
+                                <img src="images/portfolio/SearchIT!/8.png" alt="..." class="carousel-image3">
+                            </div> -->
+                        </div>
+                        <a class="carousel-control-prev" href="#searchITIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#searchITIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="about-text">
+                            <label><b>Description: </b></label>
+                            <p>The SearchIT! is a mobile app like Google Lens on Android where you can search a certain thing then it will provide the definition of it via Google. In this application, the user will be capturing an image from the device and provides the description and the use of it. Also, the user can be directed to a certain website to know more about the captured image. The user can also find another related info regarding on the image he/she captured. Additionally, SearchIT! also allows the users to save the captured image to their external storage and they can also share the image through different social media platforms.</p>  
+                        </div></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML / CSS / Bootstrap</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar bar1"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>C / Java / AJAX / PHP / SQL</h3>
+                    <span>83%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar bar2"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Data Entry / Encoding / Analysis</h3>
+                    <span>87%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar bar3"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>MS Office / Research and Development</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar bar4"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="images/badge.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Background -->
+    <section class="educ-background" id="educ-background">
+        <div class="heading">
+            <h2>Educational Background</h2>
+            <span>Schools and University Attended</span>
+        </div>
+        <div class="educ-content">
+            <div class="educ-container">
+                <img src="images/school/clsu.jpeg" alt="Avatar" class="educ-image">
+                <div class="educ-overlay">
+                    <div class="educ-text">Central Luzon State University</div>
+                    <div class="educ-text2">(2019-Present)</div>
+                </div>
+            </div>
+            <div class="educ-container">
+                <img src="images/school/sjcnhs.jpg" alt="Avatar" class="educ-image">
+                <div class="educ-overlay">
+                    <div class="educ-text">San Jose City National High School</div>
+                    <div class="educ-text2">(2019)</div>
+                </div>
+            </div>
+            <div class="educ-container">
+                <img src="images/school/sja.jpg" alt="Avatar" class="educ-image">
+                <div class="educ-overlay">
+                    <div class="educ-text">St. John's Academy</div>
+                    <div class="educ-text2">(2013)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Emilita Blas Madulid - Bachelor of Science in Information Technology</p>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="js/script12.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
